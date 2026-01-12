@@ -38,5 +38,8 @@ alias brd='bun run dev'
 # alias for yarn build
 alias brb='bun run build'
 
+# alias for chezmoi
+alias cm='chezmoi'
+
 # alias for export NODE_OPTIONS=--openssl-legacy-provider
 alias nol='export NODE_OPTIONS=--openssl-legacy-provider && echo "NODE_OPTIONS set to --openssl-legacy-provider"'
