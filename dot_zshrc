@@ -1,0 +1,42 @@
+
+export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
+
+# bun completions
+[ -s "/Users/olafvanmidden/.bun/_bun" ] && source "/Users/olafvanmidden/.bun/_bun"
+
+# bun
+export BUN_INSTALL="$HOME/.bun"
+export PATH="$BUN_INSTALL/bin:$PATH"
+
+# zoxide
+eval "$(zoxide init zsh --cmd cd)"
+
+# alias to clear terminal
+alias cls='clear'
+
+# alias for gitkraken
+alias gkopen='$(open gitkraken://repo/${PWD})'
+
+# alias for npm run dev
+alias nrd='npm run dev'
+
+# alias for npm run build
+alias nrb='npm run build'
+
+# alias for yarn dev
+alias yd='yarn dev'
+
+# alias for yarn dev-build
+alias ydb='yarn dev-build'
+
+# alias for yarn build
+alias yb='yarn build'
+
+# alias for bun run dev
+alias brd='bun run dev'
+
+# alias for yarn build
+alias brb='bun run build'
+
+# alias for export NODE_OPTIONS=--openssl-legacy-provider
+alias nol='export NODE_OPTIONS=--openssl-legacy-provider && echo "NODE_OPTIONS set to --openssl-legacy-provider"'
