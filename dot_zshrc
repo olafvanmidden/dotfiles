@@ -11,6 +11,9 @@ export PATH="$BUN_INSTALL/bin:$PATH"
 # zoxide
 eval "$(zoxide init zsh --cmd cd)"
 
+# starship
+eval "$(starship init zsh)"u
+
 # alias to clear terminal
 alias cls='clear'
 
