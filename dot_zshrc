@@ -41,6 +41,9 @@ alias brb='bun run build'
 # alias for chezmoi
 alias cm='chezmoi'
 
+# alias for nvim
+alias nv='nvim'
+
 # change vim alias to nvim
 alias vim='nvim'
 
