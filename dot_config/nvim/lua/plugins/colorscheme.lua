@@ -2,7 +2,7 @@ return {
   {
     "catppuccin/nvim",
     opts = {
-      flavour = "macchiato",
+      flavour = "mocha",
     },
   },
   {
