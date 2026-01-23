@@ -1,6 +1,9 @@
 return {
   {
     "Mofiqul/vscode.nvim",
+    opts = {
+      style = "dark",
+    },
   },
 
   {
