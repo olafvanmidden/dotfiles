@@ -52,3 +52,6 @@ alias vim='nvim'
 
 # alias for export NODE_OPTIONS=--openssl-legacy-provider
 alias nol='export NODE_OPTIONS=--openssl-legacy-provider && echo "NODE_OPTIONS set to --openssl-legacy-provider"'
+
+# opencode
+export PATH=/Users/olafvanmidden/.opencode/bin:$PATH
