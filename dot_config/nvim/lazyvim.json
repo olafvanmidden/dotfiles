@@ -4,6 +4,7 @@
     "lazyvim.plugins.extras.lang.markdown",
     "lazyvim.plugins.extras.lang.php",
     "lazyvim.plugins.extras.lang.tailwind",
+    "lazyvim.plugins.extras.lang.twig",
     "lazyvim.plugins.extras.lang.typescript"
   ],
   "install_version": 8,
