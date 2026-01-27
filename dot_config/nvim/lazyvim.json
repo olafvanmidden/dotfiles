@@ -7,6 +7,7 @@
     "lazyvim.plugins.extras.lang.tailwind",
     "lazyvim.plugins.extras.lang.twig",
     "lazyvim.plugins.extras.lang.typescript",
+    "lazyvim.plugins.extras.util.chezmoi",
     "lazyvim.plugins.extras.util.mini-hipatterns"
   ],
   "install_version": 8,
