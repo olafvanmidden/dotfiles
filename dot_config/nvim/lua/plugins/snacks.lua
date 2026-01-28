@@ -2,7 +2,6 @@
 return {
   {
     "folke/snacks.nvim",
-    ---@type snacks.config
     opts = {
       dashboard = {
         preset = {
