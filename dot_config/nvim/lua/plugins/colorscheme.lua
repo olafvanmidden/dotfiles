@@ -1,8 +1,8 @@
 ---@type LazyPluginSpec[]
 return {
   {
-    "LazyVim/LazyVim",
     ---@type LazyVimOptions
+    "LazyVim/LazyVim",
     opts = {
       colorscheme = "catppuccin",
     },
