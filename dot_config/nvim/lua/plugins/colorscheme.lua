@@ -1,14 +1,11 @@
 return {
   {
-    "catppuccin/nvim",
-    opts = {
-      flavour = "mocha",
-    },
-  },
-  {
     "LazyVim/LazyVim",
     opts = {
       colorscheme = "catppuccin",
     },
+  },
+  {
+    "f-person/auto-dark-mode.nvim",
   },
 }
