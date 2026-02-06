@@ -50,11 +50,11 @@ alias cm='chezmoi'
 # alias for nvim
 alias nv='nvim'
 
-# alias for lazygit
-alias lg='lazygit'
-
 # change vim alias to nvim
 alias vim='nvim'
+
+# alias for lazygit
+alias lg='lazygit'
 
 # alias for export NODE_OPTIONS=--openssl-legacy-provider
 alias nol='export NODE_OPTIONS=--openssl-legacy-provider && echo "NODE_OPTIONS set to --openssl-legacy-provider"'
