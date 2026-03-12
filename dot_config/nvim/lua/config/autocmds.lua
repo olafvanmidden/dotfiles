@@ -15,3 +15,9 @@ vim.api.nvim_create_autocmd("FileType", {
     vim.opt_local.autoindent = true
   end,
 })
+
+vim.api.nvim_create_user_command("ToggleWrite", function()
+  local writing_disabled = not vim.opt_local.spell:get() and vim.b.completion == false
+  vim.opt_local.spell = writing_disabled
+  vim.b.completion = writing_disabled
+end, {})
