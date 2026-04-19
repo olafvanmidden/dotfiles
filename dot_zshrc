@@ -41,8 +41,11 @@ alias yb='yarn build'
 # alias for bun run dev
 alias brd='bun run dev'
 
-# alias for yarn build
+# alias for bun run build
 alias brb='bun run build'
+
+# alias for bun run preview
+alias brp='bun run preview'
 
 # alias for chezmoi
 alias cm='chezmoi'
